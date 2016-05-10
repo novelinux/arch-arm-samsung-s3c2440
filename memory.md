@@ -7,7 +7,7 @@ S3C2440 Memory
 参考s3c2440的datasheet，我们可以找到该芯片的内存映射表(Memory Map)
 如下图所示:
 
-https://github.com/leeminghao/doc-linux/blob/master/arch/arm/s3c2440/res/memory_map.png
+https://github.com/novelinux/arch-arm-samsung-s3c2440/tree/master/res/memory_map.png
 
 根据OM[1]和OM[0]引脚的不同，内存映射的方式有细微差别。但基本可以看出，
 决定外接存储器的存储地址范围的因素主要是一组引脚nGCS0[0]~nGCS[7] 。
